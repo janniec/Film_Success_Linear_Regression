@@ -5,6 +5,11 @@ An exercise in linear regression and regularizations.  I was attempting to predi
 Data was collected from the following websites using BeautifulSoup:    
   * [IMDB](http://www.imdb.com/?ref_=nv_home).   
   * [Amazon](https://www.amazon.com/).   
+  
+## Pipeline  
+1. Scrape IMDB    
+2. Scrape Amazon    
+3. Build linear regression and regularization models  
 
 ## Results  
 Box office gross of films cannot be predicted from book data. I suspect that there is an inverse relationship, where the success of a film is correlated to an increase in popularity of the book on which the film was based.  
